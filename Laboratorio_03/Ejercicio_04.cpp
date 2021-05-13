@@ -19,6 +19,5 @@ int main(void) {
     cout << "\nUbicacion velocidad: " << &velocidad;
     cout << "\nUbicacion tiempo: " << &tiempo;
 
-
     return 0;
 }
