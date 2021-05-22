@@ -1,0 +1,1 @@
+cantidadConsonantes = (cantidad - cantidadVocales);
