@@ -13,7 +13,9 @@ int main(void) {
 
     cout << "Digite monto: "; cin >> monto;
 
+    // El monto tiene que estar en un rango porque si no entra al else if
     if(monto >= 200 && monto <= 299.99) {
+        // Operacion para el descuento
         monto = (monto - (monto * (1 - 0.90)));
         cout << "Nuevo monto: " << monto << endl;
     }

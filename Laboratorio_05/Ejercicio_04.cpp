@@ -33,6 +33,7 @@ int main(void) {
             case 1:
                 cout << "Cantidad que desea: "; cin >> cantidadHamburguesas;
                 total = cantidadHamburguesas * 2.99;
+                // Se usa la variable totalFinal para acumular la suma de totales
                 totalFinal += total;
                 break;
             case 2:
